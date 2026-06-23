@@ -4,39 +4,57 @@
 
 **Organic LinkedIn content strategy for B2B SaaS**
 
-## Selection method
+## Selection decision
 
-Experts are evaluated using the documented [selection scorecard](other/expert-selection-scorecard.md). Inclusion requires direct B2B SaaS operating experience, practical organic LinkedIn relevance, and at least one usable long-form primary source.
+Selection recorded on **2026-06-23**.
 
-## Candidate pool
+This cohort was chosen to cover distinct but connected parts of an organic B2B SaaS content system:
 
-The following candidates will be manually verified before final inclusion.
+- founder and operator-led publishing;
+- buyer education;
+- category narrative;
+- zero-click content;
+- distribution and repurposing;
+- demand creation;
+- AI-aware marketing;
+- positioning;
+- full-funnel content;
+- measurement.
 
-| Candidate | Perspective to validate | LinkedIn activity | Long-form source | Status |
-|---|---|---|---|---|
-| Dave Gerhardt | Founder-led B2B content and community-led marketing | Pending verification | Pending verification | Candidate |
-| Devin Reed | B2B content systems and buyer education | Pending verification | Pending verification | Candidate |
-| Udi Ledergor | Category creation and B2B SaaS brand building | Pending verification | Pending verification | Candidate |
-| Amanda Natividad | Zero-click content and distribution-native publishing | Pending verification | Pending verification | Candidate |
-| Ross Simmonds | Content distribution and repurposing systems | Pending verification | Pending verification | Candidate |
-| Chris Walker | Demand creation and buyer-led B2B marketing | Pending verification | Pending verification | Candidate |
-| Peep Laja | Positioning, messaging, and category differentiation | Pending verification | Pending verification | Candidate |
-| Gaetano DiNardi | B2B SaaS demand generation and content operations | Pending verification | Pending verification | Candidate |
-| Kieran Flanagan | AI, B2B content, and growth strategy | Pending verification | Pending verification | Candidate |
-| Andrei Zinkevich | Full-funnel content and account-based marketing | Pending verification | Pending verification | Candidate |
-| Anthony Piwarun | Founder-led LinkedIn content and B2B SaaS distribution | Pending verification | Pending verification | Candidate |
-| Tom Wentworth | B2B SaaS positioning and executive-led content | Pending verification | Pending verification | Candidate |
+Selection is based on the documented [scorecard](other/expert-selection-scorecard.md). Every profile URL and source artifact remains subject to manual verification before the corpus is marked complete.
 
-## Final selected experts
+## Selected experts
 
-Pending manual verification and scorecard review.
+| Expert | Primary lens | LinkedIn profile | Preliminary score | Artifact status |
+|---|---|---|---:|---|
+| Dave Gerhardt | Founder-led content | [Profile](https://www.linkedin.com/in/davegerhardt/) | 91 | Pending capture |
+| Devin Reed | Content systems | [Profile](https://www.linkedin.com/in/thedevinreed/) | 89 | Pending capture |
+| Udi Ledergor | Category creation | [Profile](https://www.linkedin.com/in/udiledergor/) | 87 | Pending capture |
+| Amanda Natividad | Zero-click content | [Profile](https://www.linkedin.com/in/amandanat/) | 89 | Pending capture |
+| Ross Simmonds | Content distribution | [Profile](https://www.linkedin.com/in/rosssimmonds/) | 91 | Pending capture |
+| Gaetano DiNardi | Demand generation | [Profile](https://www.linkedin.com/in/officialg/) | 84 | Pending capture |
+| Kieran Flanagan | AI and growth | [Profile](https://www.linkedin.com/in/kieranjflanagan/) | 85 | Pending capture |
+| Peep Laja | Positioning and messaging | [Profile](https://www.linkedin.com/in/peeplaja/) | 86 | Pending capture |
+| Andrei Zinkevich | Full-funnel content | [Profile](https://www.linkedin.com/in/azinkevich/) | 83 | Pending capture |
+| Chris Walker | Demand creation | [Profile](https://www.linkedin.com/in/chriswalker171/) | 85 | Pending capture |
 
-## Source requirements per selected expert
+## Long-form source leads
 
-Each final expert must have:
+These are discovery pages, not yet the final video selections.
 
-1. One canonical LinkedIn profile URL.
-2. Two recent, relevant LinkedIn posts collected manually.
-3. One relevant long-form YouTube, podcast, or talk source.
-4. A concise annotation explaining their inclusion.
-5. Source dates and collection dates recorded.
+| Expert | Source lead | Why it is useful |
+|---|---|---|
+| Dave Gerhardt | [Exit Five Podcast](https://exitfive.com/podcast/) | B2B marketing, content, positioning, and social strategy. |
+| Amanda Natividad | [SparkToro Resources](https://sparktoro.com/resources/) | Audience research, zero-click content, and distribution. |
+| Ross Simmonds | [The Ross Simmonds Show](https://foundationinc.co/podcast/ross-simmonds-show/) | Content distribution, repurposing, B2B SaaS marketing, and research. |
+| Chris Walker | [Refine Labs Podcasts](https://www.refinelabs.com/podcasts) | Buyer behavior, demand creation, and B2B measurement. |
+
+## Per-expert completion requirement
+
+An expert is only considered complete when the repository includes:
+
+1. Canonical LinkedIn profile URL manually verified in a logged-in browser.
+2. Two recent LinkedIn posts with canonical post URLs.
+3. One usable YouTube video URL for transcript collection.
+4. A concise researcher note for each artifact.
+5. A collection-log entry.

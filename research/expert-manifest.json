@@ -1,6 +1,97 @@
 {
   "schema_version": "1.0",
   "topic": "Organic LinkedIn content strategy for B2B SaaS",
-  "updated_at": null,
-  "experts": []
+  "updated_at": "2026-06-23",
+  "experts": [
+    {
+      "id": "dave-gerhardt",
+      "name": "Dave Gerhardt",
+      "linkedin_url": "https://www.linkedin.com/in/davegerhardt/",
+      "rationale": "Operator-led B2B content, community building, and social distribution.",
+      "primary_lens": "founder-led-content",
+      "preliminary_score": 91,
+      "status": "selected-pending-artifact-capture"
+    },
+    {
+      "id": "devin-reed",
+      "name": "Devin Reed",
+      "linkedin_url": "https://www.linkedin.com/in/thedevinreed/",
+      "rationale": "B2B content systems, buyer education, and content repurposing.",
+      "primary_lens": "content-systems",
+      "preliminary_score": 89,
+      "status": "selected-pending-artifact-capture"
+    },
+    {
+      "id": "udi-ledergor",
+      "name": "Udi Ledergor",
+      "linkedin_url": "https://www.linkedin.com/in/udiledergor/",
+      "rationale": "B2B SaaS category narrative, executive content, and brand building.",
+      "primary_lens": "category-creation",
+      "preliminary_score": 87,
+      "status": "selected-pending-artifact-capture"
+    },
+    {
+      "id": "amanda-natividad",
+      "name": "Amanda Natividad",
+      "linkedin_url": "https://www.linkedin.com/in/amandanat/",
+      "rationale": "Zero-click publishing, audience attention, and native content distribution.",
+      "primary_lens": "zero-click-content",
+      "preliminary_score": 89,
+      "status": "selected-pending-artifact-capture"
+    },
+    {
+      "id": "ross-simmonds",
+      "name": "Ross Simmonds",
+      "linkedin_url": "https://www.linkedin.com/in/rosssimmonds/",
+      "rationale": "Content distribution, research-backed repurposing, and B2B SaaS reach.",
+      "primary_lens": "content-distribution",
+      "preliminary_score": 91,
+      "status": "selected-pending-artifact-capture"
+    },
+    {
+      "id": "gaetano-dinardi",
+      "name": "Gaetano DiNardi",
+      "linkedin_url": "https://www.linkedin.com/in/officialg/",
+      "rationale": "Demand generation, content-led pipeline, and B2B SaaS growth.",
+      "primary_lens": "demand-generation",
+      "preliminary_score": 84,
+      "status": "selected-pending-artifact-capture"
+    },
+    {
+      "id": "kieran-flanagan",
+      "name": "Kieran Flanagan",
+      "linkedin_url": "https://www.linkedin.com/in/kieranjflanagan/",
+      "rationale": "AI-aware B2B growth, content systems, and marketing experimentation.",
+      "primary_lens": "ai-and-growth",
+      "preliminary_score": 85,
+      "status": "selected-pending-artifact-capture"
+    },
+    {
+      "id": "peep-laja",
+      "name": "Peep Laja",
+      "linkedin_url": "https://www.linkedin.com/in/peeplaja/",
+      "rationale": "Positioning, customer research, and message clarity for software companies.",
+      "primary_lens": "positioning-and-messaging",
+      "preliminary_score": 86,
+      "status": "selected-pending-artifact-capture"
+    },
+    {
+      "id": "andrei-zinkevich",
+      "name": "Andrei Zinkevich",
+      "linkedin_url": "https://www.linkedin.com/in/azinkevich/",
+      "rationale": "Full-funnel content, account-based marketing, and B2B revenue alignment.",
+      "primary_lens": "full-funnel-content",
+      "preliminary_score": 83,
+      "status": "selected-pending-artifact-capture"
+    },
+    {
+      "id": "chris-walker",
+      "name": "Chris Walker",
+      "linkedin_url": "https://www.linkedin.com/in/chriswalker171/",
+      "rationale": "Demand creation, buyer behavior, and B2B content measurement.",
+      "primary_lens": "demand-creation",
+      "preliminary_score": 85,
+      "status": "selected-pending-artifact-capture"
+    }
+  ]
 }
