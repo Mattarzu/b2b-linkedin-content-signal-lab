@@ -1,0 +1,15 @@
+{
+  "name": "b2b-linkedin-content-signal-lab",
+  "version": "0.1.0",
+  "private": true,
+  "description": "High-signal research on organic LinkedIn strategy for B2B SaaS.",
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "validate": "tsx scripts/validate-research.ts",
+    "validate:strict": "tsx scripts/validate-research.ts --strict",
+    "collect:transcripts": "tsx scripts/collect-transcripts.ts",
+    "check": "npm run typecheck && npm run validate"
+  },
+  "devDependencies": {}
+}
