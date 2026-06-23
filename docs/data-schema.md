@@ -86,3 +86,31 @@ language: en
 ~~~
 
 The collector defaults to `mode=native`, which requests only existing transcripts. Use `--allow-generated` only after explicitly accepting that AI-generated transcripts may consume additional API credits.
+
+## LinkedIn capture queue
+
+`research/linkedin-capture-queue.json` is the controlled input for manually captured LinkedIn posts.
+
+```json
+{
+  "schema_version": "1.0",
+  "updated_at": "YYYY-MM-DD",
+  "posts": [
+    {
+      "id": "author-yyyy-mm-dd-topic-slug",
+      "expert_id": "lowercase-kebab-case",
+      "author": "Full name",
+      "canonical_url": "https://www.linkedin.com/posts/...",
+      "published_at": "YYYY-MM-DD",
+      "captured_at": "YYYY-MM-DD",
+      "format": "text-post",
+      "themes": [
+        "buyer-education",
+        "founder-led-content"
+      ],
+      "body": "Manually captured post content.",
+      "researcher_note": "Core claim, mechanism, intended audience, and relevance."
+    }
+  ]
+}
+Posts are captured manually from LinkedIn. The renderer validates metadata and writes Markdown files under research/linkedin-posts/<expert-id>/.
