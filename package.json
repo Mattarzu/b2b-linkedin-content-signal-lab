@@ -9,7 +9,8 @@
     "validate": "tsx scripts/validate-research.ts",
     "validate:strict": "tsx scripts/validate-research.ts --strict",
     "collect:transcripts": "tsx scripts/collect-transcripts.ts",
-    "check": "npm run typecheck && npm run validate"
+    "check": "npm run typecheck && npm run validate",
+    "collect:transcripts:dry": "tsx scripts/collect-transcripts.ts --dry-run"
   },
   "devDependencies": {
     "@types/node": "^26.0.0",

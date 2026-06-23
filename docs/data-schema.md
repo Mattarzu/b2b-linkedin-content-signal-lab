@@ -60,3 +60,29 @@ language: en
 
 [00:00] Transcript segment
 
+## Video queue
+
+`research/video-queue.json` is the controlled input for the transcript collector.
+
+~~~json
+{
+  "schema_version": "1.0",
+  "updated_at": "YYYY-MM-DD",
+  "videos": [
+    {
+      "id": "video-topic-slug",
+      "expert_id": "lowercase-kebab-case",
+      "expert_name": "Full name",
+      "title": "Exact public video title",
+      "url": "https://www.youtube.com/watch?v=...",
+      "published_at": "YYYY-MM-DD",
+      "themes": [
+        "buyer-education",
+        "content-distribution"
+      ]
+    }
+  ]
+}
+~~~
+
+The collector defaults to `mode=native`, which requests only existing transcripts. Use `--allow-generated` only after explicitly accepting that AI-generated transcripts may consume additional API credits.

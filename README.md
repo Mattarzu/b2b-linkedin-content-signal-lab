@@ -67,3 +67,31 @@ Project initialized. Expert selection and corpus collection are in progress.
 ## Disclaimer
 
 This is an independent research project created for a technical hiring exercise. It is not an official 100Hires resource or marketing strategy.
+
+## Transcript collection pipeline
+
+The transcript pipeline is intentionally separated from source selection.
+
+~~~bash
+npm run collect:transcripts:dry
+~~~
+
+Dry-run validates the queue shape and prints the planned output paths without requiring an API key.
+
+~~~bash
+cp .env.example .env
+# Add SUPADATA_API_KEY to .env
+set -a
+source .env
+set +a
+
+npm run collect:transcripts
+~~~
+
+The default collection mode is `native`: it requests existing video transcripts only. To allow API-generated transcripts when no native captions exist:
+
+~~~bash
+npm run collect:transcripts -- --allow-generated
+~~~
+
+Existing transcript files are not overwritten unless `--force` is passed.
